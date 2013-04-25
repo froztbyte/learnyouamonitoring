@@ -15,3 +15,8 @@ What's the intention?
 ---------------------
 
 To, over the course of time, develop some reference material that'll help people go from the question "okay, so how do I monitor my <x> thing?" to having comprehensive and correct monitoring for their needs.
+
+Why the name?
+-------------
+
+Two reasons. Firstly, the other popular theme was _Learn <x> the hard way_, and I figured monitoring's also got enough of a stigma. Secondly, I really should be putting more time into [learning Haskell](http://learnyouahaskell.com/) ;)
