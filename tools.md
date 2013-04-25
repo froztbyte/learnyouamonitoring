@@ -5,10 +5,13 @@ There's a quote I once read somewhere, and it went thus: know your tools well en
 
 There is, of course, no substitute for experience. And each environment is also unique. This is why there is no one-size-fits-all approach to monitoring. Your application might just run on people's windows workstations at a pace any desktop user is comfortable with, while your neighbour has an application that needs to regulate the traffic lights for a whole city, a scenario where even the slightest timing issue could be the cause of significant damage (and even loss of life). So while experience is certainly a key requirement for you to be successful in your mission of monitoring something, I hope that this guide can be a worthwhile addition to the process.
 
-Distinction
-===========
+Distinctions
+============
 
 When you start searching for software to do monitoring, you'll find a lot of things that are called _Network Monitoring Systems_. I personally feel this is an overly vague term, and would like to clarify the distinctions between the various common parts of monitoring which you'll run into.
 
-*Trending*: these are systems like MRTG, Ganglia, Cacti, etc., whose purpose it is to collect metrics (and usually display them too). In general these systems are also _passive_, in that they don't react to events (I'll expand on the meaning of events in a bit).
-*Synthetic/active monitoring*: these are systems 
+**Trending**: these are systems like MRTG, Ganglia, Cacti, etc., whose purpose it is to collect metrics (and usually display them too). In general these systems are also _passive_, in that they don't react to events.  
+**Synthetic/active monitoring**: these are systems that are actively pinging and connecting to systems, often even simulating protocol interaction to ensure that your services are still alive. Examples of these systems are Nagios, Zenoss, OpenNMS.  
+**Events**: these are deviations from the norm. Common examples are syslog messages, SNMP traps, BGP session loss, network cables being bumped out, server daemons falling over. Effectively, any /specific/ thing you can point to as a bump in the wire (note that I do not point them out to be fatal)
+
+
