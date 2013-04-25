@@ -20,3 +20,10 @@ Why the name?
 -------------
 
 Two reasons. Firstly, the other popular theme was _Learn <x> the hard way_, and I figured monitoring's also got enough of a stigma. Secondly, I really should be putting more time into [learning Haskell](http://learnyouahaskell.com/) ;)
+
+What's coming?
+--------------
+
+Right now, this is in heavy "dev" as I get to writing all the various parts of it that come to mind. For the most part I'll probably do the "commit early, commit often" thing, since it has various advantages (none of which it's the place of these postings to elucidate on), the main one of which is to save me effort should data loss somehow occur.
+
+Issues, questions, recommendations, everything. If you have them, please let me know. You can open up Github issues, or you can mail me, or tweet at me, or ping me on IRC if you know where to find me, or ... well, it's 2013 and we have lots of communication options. If you think you can contribute, let me know how!
