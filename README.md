@@ -14,4 +14,4 @@ Over the last few years, I've spent a considerable amount of time dealing with m
 What's the intention?
 ---------------------
 
-To, over the course of time, develop soem reference material that'll help people go from the question "okay, so how do I monitor my <x> thing?" to having comprehensive and correct monitoring for their needs.
+To, over the course of time, develop some reference material that'll help people go from the question "okay, so how do I monitor my <x> thing?" to having comprehensive and correct monitoring for their needs.
