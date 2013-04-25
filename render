@@ -1,4 +1,4 @@
 function render {
-  pandoc -f markdown -t html -o testrender/out.html "$1"
+  pandoc -f markdown -t html -o testrender/out.html "$*"
   xopen testrender/out.html
 }
